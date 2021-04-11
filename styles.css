@@ -1,0 +1,313 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(24, 28, 41);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+background: rgb(24, 28, 41);
+
+padding: 0;
+}
+h1{
+    margin: 5px;
+   position: absolute;
+}
+section{
+
+background: rgb(24, 28, 41);
+padding: 0%;
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+
+
+ul{
+margin: 0%;
+
+text-align: center;
+padding: 0px;
+list-style-type: none;
+
+
+}
+li{
+display: inline-block;
+margin: 01%;
+margin-top: 1%;
+position: relative;
+
+}
+
+a
+{
+    text-decoration: none;
+   color: white;
+}
+a:hover
+{
+   color: rgba(130, 179, 240);
+}
+
+
+
+.info{
+    font-size: 100%;
+    margin: 10% 10% 10% 10%;
+}
+.gamedevinfo
+{
+    text-align: left;
+    font-size: 100%;
+    margin: 5% 10% 0% 10%;
+}
+ .one
+{
+ font-size: 200%;
+text-align: left;
+ position: relative;
+ margin: 20px;
+}
+hr{
+    border: 1px solid white;
+background-color: white;
+    inline-size: 100%;
+    text-align: left;
+    margin: 20px;
+  
+}
+.two
+{
+ font-size: 100%;
+ text-align: left;
+ position: relative;
+ margin: 20px;
+}
+
+.SUL {
+    margin: 0%;
+    text-align: center;
+    padding: 0px;
+    list-style-type: none;
+    
+    
+    }
+     .SLI {
+    display: inline-block;
+    margin: 0.3%;
+    margin-top: 0%;
+    position: relative;
+    text-align: center;
+    
+    }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.9;
+}
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  .fa-github {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .grid-container {  
+     
+  margin: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%  ;
+    padding: 0% 0% 0% 0% ;
+ 
+ 
+  }
+  .grid-item {
+    
+   
+      display: flex;
+    
+    
+  }
+  .grid-item img {
+    width: 250px;
+   align-self: flex-start;
+ 
+
+
+}
+  
+.grid-item figcaption {
+    
+    text-align: center;
+font-size: 80%;
+}
+
+
+
+
+.video-responsive iframe
+{
+  width: 640px;
+  height: 360px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .toptext {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+     
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 10px;
+   
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 10px;
+   
+    text-align: center;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    image-rendering: pixelated;   
+      image-rendering: -moz-crisp-edges; 
+          image-rendering: crisp-edges;
+
+  }
+  .notpixart {
+    margin-top: 8px;
+    vertical-align: middle;
+  
+   
+
+  }
+  .column :hover
+  {
+  
+        opacity: 0.9;
+  
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  
+  .topnav {
+    
+    overflow: hidden;
+
+  
+    top: 0;
+    width: 100%;
+   
+  }
+  
+  .topnav a {
+float: left;
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav .contact 
+  {
+    float: right;
+text-align: center;
+    display: block;
+    position: relative;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } 
+  
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .material-icons {vertical-align:-14%}
+
+
+ .gameName
+{
+  
+ font-size: 130%;
+text-align: left;
+ position: relative;
+ margin: 20px;
+}
+hr{
+    border: 1px solid white;
+background-color: white;
+    inline-size: 100%;
+    text-align: left;
+    margin: 20px;
+  
+}
+.gameInfo
+{
+ font-size: 90%;
+ text-align: left;
+ position: relative;
+ margin: 20px;
+}
